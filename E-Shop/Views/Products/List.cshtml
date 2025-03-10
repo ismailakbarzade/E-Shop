@@ -1,0 +1,17 @@
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>title</h2>
+@{
+    foreach (var product in Model)
+    {
+        <div>
+            <h2>Model:@product.name</h2>
+            <p>price:@product.price.toString("c")</p>
+        </div>
+        
+    }
+}

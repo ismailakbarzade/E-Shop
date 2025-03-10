@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Page</title>
+    <!-- Подключение Bootstrap для удобства стилизации -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Подключение иконок FontAwesome для поиска -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-4">
+    <!-- Первая строка с поисковым блоком -->
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Category</h4>
+                    <hr/>
+                    <div class="form-body">
+                        <!-- Поле ввода для имени категории -->
+                        <label for="categoryName">Category Name</label>
+                        <input type="text" id="categoryName" class="form-control" placeholder="Enter Category Name">
+                        
+                    </div>
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="CategoryImage">Upload Category Image</label>
+                            <input type="file" id="CategoryImage" name="CategoryImage" class="form-control" />
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add</button>
+                        <form method="post" action="/delete">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </form>
+                   
+
+
+                </div>
+                <div class="form"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Вторая строка с пустым блоком для категорий -->
+    <div class="row mt-4">
+        <div class="col-sm-12 col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Category</h4>
+                    <hr/>
+                    <!-- Здесь будет содержимое категорий, если нужно -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Подключение Bootstrap JS и jQuery (для работы с компонентами Bootstrap) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
