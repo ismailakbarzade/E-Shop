@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = E_Shop
+build_property.RootNamespace = E_Shop
+build_property.ProjectDir = /Users/a123123/RiderProjects/E-Shop/E-Shop/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/a123123/RiderProjects/E-Shop/E-Shop
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Admin/category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vY2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Admin/dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vZGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Admin/dashboard2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vZGFzaGJvYXJkMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Home/cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9jYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Home/checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9jaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Home/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9jb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Home/detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9kZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Home/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Home/shop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zaG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Products/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Products/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvUHJvZHVjdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Products/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Shared/_AccountLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BY2NvdW50TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a123123/RiderProjects/E-Shop/E-Shop/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7vcdnujf0p

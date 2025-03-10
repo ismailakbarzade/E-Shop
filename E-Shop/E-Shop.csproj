@@ -1,0 +1,231 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>E_Shop</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\cart.html" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\checkout.html" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\contact.html" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\css\bootstrap-grid.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\css\bootstrap-grid.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\css\bootstrap-reboot.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\css\bootstrap-reboot.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\css\bootstrap.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\css\bootstrap.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\css\style.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\css\style.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\detail.html" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\carousel-1.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\carousel-2.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\carousel-3.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\cat-1.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\cat-2.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\cat-3.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\cat-4.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\offer-1.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\offer-2.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\payments.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\product-1.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\product-2.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\product-3.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\product-4.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\product-5.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\product-6.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\product-7.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\product-8.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\product-9.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\user.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\vendor-1.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\vendor-2.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\vendor-3.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\vendor-4.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\vendor-5.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\vendor-6.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\vendor-7.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\img\vendor-8.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\index.html" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\js\main.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\lib\animate\animate.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\lib\easing\easing.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\lib\easing\easing.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\lib\owlcarousel\assets\ajax-loader.gif" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\lib\owlcarousel\assets\owl.carousel.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\lib\owlcarousel\assets\owl.carousel.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\lib\owlcarousel\assets\owl.theme.default.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\lib\owlcarousel\assets\owl.theme.default.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\lib\owlcarousel\assets\owl.theme.green.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\lib\owlcarousel\assets\owl.theme.green.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\lib\owlcarousel\assets\owl.video.play.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\lib\owlcarousel\LICENSE" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\lib\owlcarousel\owl.carousel.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\lib\owlcarousel\owl.carousel.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\LICENSE.txt" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\mail\contact.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\mail\contact.php" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\mail\jqBootstrapValidation.min.js" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\online-shop-website-template.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\READ-ME.txt" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\bootstrap-grid.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\bootstrap-reboot.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\bootstrap.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_alert.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_background-variant.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_badge.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_border-radius.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_box-shadow.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_breakpoints.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_buttons.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_caret.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_clearfix.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_deprecate.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_float.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_forms.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_gradients.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_grid-framework.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_grid.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_hover.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_image.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_list-group.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_lists.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_nav-divider.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_pagination.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_reset-text.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_resize.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_screen-reader.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_size.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_table-row.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_text-emphasis.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_text-hide.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_text-truncate.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_transition.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\mixins\_visibility.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_align.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_background.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_borders.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_clearfix.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_display.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_embed.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_flex.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_float.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_interactions.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_overflow.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_position.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_screenreaders.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_shadows.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_sizing.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_spacing.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_stretched-link.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_text.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\utilities\_visibility.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\vendor\_rfs.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_alert.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_badge.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_breadcrumb.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_button-group.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_buttons.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_card.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_carousel.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_close.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_code.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_custom-forms.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_dropdown.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_forms.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_functions.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_grid.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_images.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_input-group.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_jumbotron.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_list-group.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_media.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_mixins.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_modal.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_nav.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_navbar.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_pagination.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_popover.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_print.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_progress.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_reboot.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_root.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_spinners.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_tables.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_toasts.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_tooltip.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_transitions.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_type.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_utilities.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\bootstrap\scss\_variables.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\scss\style.scss" />
+      <_ContentIncludedByDefault Remove="wwwroot\online-shop-website-template\shop.html" />
+      <_ContentIncludedByDefault Remove="Views\Account\ChangePassword.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Account\Login.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Account\Register.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Account\VerifyEmail.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.2">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Admin\" />
+      <Folder Include="wwwroot\Admin\plugins\input-mask\phone-codes\" />
+      <Folder Include="wwwroot\lib\owlcarousel\assets\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="wwwroot\scss\bootstrap\scss\utilities\_shadows.scss" />
+      <Content Remove="wwwroot\scss\bootstrap\scss\utilities\_background.scss" />
+      <Content Remove="wwwroot\scss\bootstrap\scss\mixins\_text-emphasis.scss" />
+      <Content Remove="wwwroot\scss\bootstrap\scss\mixins\_table-row.scss" />
+      <Content Remove="wwwroot\scss\bootstrap\scss\mixins\_size.scss" />
+      <Content Remove="wwwroot\scss\bootstrap\scss\mixins\_screen-reader.scss" />
+      <Content Remove="wwwroot\scss\bootstrap\scss\_popover.scss" />
+      <Content Remove="wwwroot\scss\bootstrap\scss\_modal.scss" />
+      <Content Remove="wwwroot\scss\bootstrap\scss\_functions.scss" />
+      <Content Remove="wwwroot\lib\owlcarousel\assets\owl.carousel.css" />
+      <Content Remove="wwwroot\lib\owlcarousel\LICENSE" />
+      <Content Remove="wwwroot\lib\easing\easing.min.js" />
+      <Content Remove="wwwroot\img\vendor-8.jpg" />
+      <Content Remove="wwwroot\img\vendor-7.jpg" />
+      <Content Remove="wwwroot\img\vendor-3.jpg" />
+      <Content Remove="wwwroot\img\user.jpg" />
+      <Content Remove="wwwroot\img\product-9.jpg" />
+      <Content Remove="wwwroot\img\product-7.jpg" />
+      <Content Remove="wwwroot\css\bootstrap.css" />
+      <Content Remove="wwwroot\css\bootstrap-reboot.min.css" />
+      <Content Remove="wwwroot\READ-ME.txt" />
+      <Content Remove="wwwroot\LICENSE.txt" />
+      <Content Remove="wwwroot\Admin\plugins\timepicker\bootstrap-timepicker.min.js" />
+      <Content Remove="wwwroot\Admin\plugins\jvectormap\jquery-jvectormap-1.2.2.min.js" />
+      <Content Remove="wwwroot\Admin\plugins\ionslider\ion.rangeSlider.skinNice.css" />
+      <Content Remove="wwwroot\Admin\plugins\ionslider\ion.rangeSlider.skinFlat.css" />
+      <Content Remove="wwwroot\Admin\plugins\ionslider\ion.rangeSlider.min.js" />
+      <Content Remove="wwwroot\Admin\plugins\input-mask\phone-codes\phone-codes.json" />
+      <Content Remove="wwwroot\Admin\plugins\input-mask\jquery.inputmask.regex.extensions.js" />
+      <Content Remove="wwwroot\Admin\plugins\input-mask\jquery.inputmask.numeric.extensions.js" />
+      <Content Remove="wwwroot\Admin\plugins\input-mask\jquery.inputmask.js" />
+      <Content Remove="wwwroot\Admin\plugins\input-mask\jquery.inputmask.extensions.js" />
+      <Content Remove="wwwroot\Admin\plugins\iCheck\square\yellow.png" />
+      <Content Remove="wwwroot\Admin\plugins\iCheck\square\yellow.css" />
+      <Content Remove="wwwroot\Admin\plugins\iCheck\square\square@2x.png" />
+      <Content Remove="wwwroot\Admin\plugins\iCheck\square\square.png" />
+      <Content Remove="wwwroot\Admin\plugins\iCheck\square\pink.css" />
+      <Content Remove="wwwroot\Admin\plugins\iCheck\square\green.png" />
+      <Content Remove="wwwroot\Admin\plugins\iCheck\polaris\polaris.png" />
+      <Content Remove="wwwroot\Admin\plugins\iCheck\minimal\minimal.css" />
+      <Content Remove="wwwroot\Admin\plugins\iCheck\flat\yellow@2x.png" />
+      <Content Remove="wwwroot\Admin\plugins\iCheck\flat\flat.css" />
+      <Content Remove="wwwroot\Admin\plugins\iCheck\all.css" />
+    </ItemGroup>
+
+</Project>
